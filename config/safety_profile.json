@@ -1,0 +1,28 @@
+{
+  "firmware": {
+    "low_battery_auto_descend": true,
+    "link_loss_auto_descend": true,
+    "link_loss_expected_delay_s": 5.0,
+    "link_loss_early_warning_s": 3.0
+  },
+  "link": {
+    "telemetry_timeout_ms": 1000,
+    "reconnect_interval_ms": 500,
+    "reconnect_max_ms": 2000
+  },
+  "battery": {
+    "warn_mv": 3500,
+    "critical_mv": 3300,
+    "warn_raw": 45,
+    "critical_raw": 15,
+    "block_level": 1,
+    "post_landing_lockout": "until_replaced_or_recovered"
+  },
+  "coexistence": {
+    "require_exclusive": true,
+    "peer_disconnect_assume_auto_descend": true
+  },
+  "bit7": {
+    "diagnostic_only": true
+  }
+}

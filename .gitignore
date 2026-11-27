@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+media.db
+recordings/*
+!recordings/.gitkeep
+config/ui_settings.json
+logs/*
+!logs/.gitkeep
+*.log
+video_review/
